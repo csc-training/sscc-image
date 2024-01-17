@@ -1,0 +1,19 @@
+\documentclass[crop,tikz]{standalone}
+
+\usepackage{anyfontsize}
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+    \begin{tikzpicture}
+        \node at (0,0) {\includegraphics{images/supra.png}};
+        \node at (35,-9) {\includegraphics[scale=2]{images/bioexcel.pdf}};
+        \node at (24,5) {\includegraphics[scale=1]{images/csc.pdf}};
+        \node at (13,-9) {\includegraphics[scale=0.3]{images/eurocc2.png}};
+        \node[purple] at (0,28) {\fontsize{120}{60}\selectfont\textbf{Spring School on Computational Chemistry 2024}};
+        \node[purple] at (0,23) {\fontsize{85}{60}\selectfont\textbf{17--19 April 2024}};
+        \node[purple] at (0,19) {\fontsize{85}{60}\selectfont\textbf{CSC -- IT Center for Science, Finland}};
+    \end{tikzpicture}
+
+\end{document}
